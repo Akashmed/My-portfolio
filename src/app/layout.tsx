@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dat Pham | Software Engineer",
-  description: "Explore my software engineering portfolio and projects.",
+  title: "Akash Ahmed | Developer",
+  description: "Explore my portfolio and projects.",
   openGraph: {
-    title: "Dat Pham | Software Engineer",
-    description: "Explore my software engineering portfolio and projects.",
-    url: "https://datpham.dev",
-    siteName: "Dat Pham Portfolio",
+    title: "Akash Ahmed | Developer",
+    description: "Explore my portfolio and projects.",
+    url: "https://akashmed.vercel.app",
+    siteName: "Akash Ahmed Portfolio",
     images: [
       {
         url: "/preview.png", 
         width: 1200,
         height: 630,
-        alt: "Dat Pham Portfolio Preview",
+        alt: "Akash Ahmed Portfolio Preview",
       },
     ],
     locale: "en_US",
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dat Pham | Software Engineer",
-    description: "Explore my software engineering portfolio and projects.",
+    title: "Akash Ahmed | Developer",
+    description: "Explore my portfolio and projects.",
     images: ["/preview.png"],
   },
 };

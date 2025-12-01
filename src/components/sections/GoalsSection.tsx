@@ -16,41 +16,41 @@ export default function GoalsSection() {
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
-            {/* Deepen ASP.NET Core Expertise */}
+            {/* Deepen Spring & Java Backend Expertise */}
             <div className="group relative bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent cursor-pointer hover:-translate-y-1">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-900 dark:bg-white rounded-full flex items-center justify-center text-white dark:text-gray-900 mx-auto mb-4 shadow-lg transition-all duration-300">
                   <Server className="text-2xl" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                  Deepen ASP.NET Core Expertise
+                  Deepen Spring & Java Expertise
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Build and deploy microservices with ASP.NET Core & Docker to handle high-volume API traffic.
+                  Build and deploy production-ready backend services using Spring Boot, Spring Security, and Spring Cloud.
                 </p>
               </div>
             </div>
-            {/* Cloud Architect on Azure */}
+            {/* Master Cloud & Deployment Practices */}
             <div className="group relative bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent cursor-pointer hover:-translate-y-1">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-700 dark:bg-gray-300 rounded-full flex items-center justify-center text-white dark:text-gray-900 mx-auto mb-4 shadow-lg transition-all duration-300">
                   <Cloud className="text-2xl" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Cloud Architect on Azure</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Master Cloud & Deployment Practices</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Earn the Azure Solutions Architect certification and design robust, distributed systems in the cloud.
+                  Learn cloud platforms (AWS/Azure) and CI/CD workflows to deploy applications reliably with modern DevOps practices.
                 </p>
               </div>
             </div>
-            {/* Real-Time Data Streaming */}
+            {/* System Design & Scalability */}
             <div className="group relative bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent cursor-pointer hover:-translate-y-1">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-600 dark:bg-gray-400 rounded-full flex items-center justify-center text-white dark:text-gray-900 mx-auto mb-4 shadow-lg transition-all duration-300">
                   <Activity className="text-2xl" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Real-Time Data Streaming</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">System Design & Scalability</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Implement event-driven pipelines with SignalR and Kafka to power real-time dashboards and alerts.
+                  Study caching, concurrency, load balancing and distributed systems to architect reliable, scalable real-world solutions.
                 </p>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function GoalsSection() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">Open-Source Contributions</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Contribute to C# libraries and ASP.NET community projects to sharpen my skills and give back.
+                  Contribute to Java libraries and Spring community projects to sharpen my skills and give back.
                 </p>
               </div>
             </div>

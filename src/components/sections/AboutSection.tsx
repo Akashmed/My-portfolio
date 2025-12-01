@@ -55,7 +55,7 @@ export default function AboutSection() {
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">Bio</h4>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line">
-                    Final-year Software Engineering student with 1+ years of hands-on experience. Passionate about
+                    Third-year Computer Science student with 1+ years of hands-on experience. Passionate about
                     creating user-friendly and scalable web applications.
                   </p>
                 </div>
@@ -69,7 +69,7 @@ export default function AboutSection() {
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">Hobbies</h4>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line">
-                    Shooting hoops, planning adventures, exploring new technologies, and contributing to open-source
+                    Working with new ideas, exploring new technologies, and contributing to open-source
                     projects.
                   </p>
                 </div>
@@ -83,7 +83,7 @@ export default function AboutSection() {
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">Languages</h4>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line">
-                    Fluent in Vietnamese and English. Currently learning Mandarin.
+                    Fluent in Bengali and English. Interested in learning Arabic.
                   </p>
                 </div>
 
@@ -123,7 +123,7 @@ export default function AboutSection() {
                     <h4 className="text-lg font-medium text-gray-900 dark:text-white">Education</h4>
                   </div>
                   <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line">
-                    Bachelor of Software Engineering, Swinburne University of Technology (2021-2025). Specialized in full-stack
+                    Bachelor of Computer Science & Engineering, Northern University Bangladesh (2023-present). Specialized in full-stack
                     development.
                   </p>
                 </div>

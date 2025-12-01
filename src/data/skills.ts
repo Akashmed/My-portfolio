@@ -22,38 +22,39 @@ export const technicalSkills: TechnicalSkills = {
   frontend: [
     'React',
     'Next.js',
-    'TypeScript',
+    // 'TypeScript',
     'JavaScript',
     'HTML5',
     'CSS3',
     'Tailwind CSS',
-    'Redux',
-    'Vue.js',
-    'Bootstrap'
+    // 'Redux',
+    // 'Vue.js',
+    // 'Bootstrap'
   ],
   backend: [
     'Node.js',
     'Python',
     'Java',
-    'C#',
+    // 'C#',
     'Express.js',
-    'Django',
+    // 'Django',
     'Spring Boot',
-    '.NET',
-    'GraphQL',
+    // '.NET',
+    // 'GraphQL',
     'REST APIs'
   ],
   database: [
     'MongoDB',
-    'PostgreSQL',
+    'Oracle DB',
     'MySQL',
-    'Redis',
     'Firebase',
-    'AWS',
-    'Azure',
-    'Docker',
-    'Kubernetes',
-    'CI/CD'
+    'PineconeDB',
+    'Redis',
+    // 'AWS',
+    // 'Azure',
+    // 'Docker',
+    // 'Kubernetes',
+    // 'CI/CD'
   ]
 }
 
@@ -93,38 +94,46 @@ export const softSkills: SoftSkill[] = [
 export const tools: Tools = {
   development: [
     'VS Code',
+    'IntelliJ IDEA',
     'Git',
     'GitHub',
-    'GitLab',
-    'Postman',
-    'Insomnia',
-    'Webpack',
+    // 'GitLab',
+    'Whisper',
+    // 'Insomnia',
+    // 'Webpack',
     'Vite',
     'npm',
-    'yarn'
+    'axios',
+    'venv',
+    'ffmpeg'
   ],
   design: [
     'Figma',
-    'Adobe XD',
-    'Sketch',
-    'Photoshop',
-    'Illustrator',
-    'InVision',
-    'Zeplin',
-    'Storybook',
-    'Framer',
+    // 'Adobe XD',
+    // 'Sketch',
+    // 'Photoshop',
+    // 'Illustrator',
+    // 'InVision',
+    // 'Zeplin',
+    // 'Storybook',
+    // 'Framer',
     'Canva'
   ],
   testing: [
-    'Jest',
-    'Cypress',
-    'Playwright',
-    'Selenium',
+    // 'Jest',
+    // 'Cypress',
+    // 'Playwright',
+    // 'Selenium',
     'Postman',
-    'JUnit',
-    'Mocha',
-    'Chai',
-    'Testing Library',
-    'Vitest'
+    // 'JUnit',
+    // 'Mocha',
+    // 'Chai',
+    // 'Testing Library',
+    // 'Vitest',
+    'Firebase',
+    'Vercel',
+    'Railway',
+    'Render',
+    'Netlify'
   ]
 } 

@@ -8,45 +8,45 @@ export interface SmallProject {
 
 export const smallProjects: SmallProject[] = [
   {
-    title: "CGPA Calculator",
-    description: "A tool for students to calculate their CGPA based on their grades and credits to track their academic performance",
-    tech: ["C++", "OOP", "SQLite", "Google Test", "CMake"],
-    github: "https://github.com/datpham0412/cgpa-calculator",
-    icon: "Calculator"
-  },
-  {
-    title: "Authentication Service",
-    description: "Authentication application built using the MERN stack, allow users to register/sign-in and manage their account",
-    tech: ["Node.js", "Express.js", "MongoDB", "JWT", "React"],
-    github: "https://github.com/datpham0412/sign-up-application",
-    icon: "Lock"
-  },
-  {
-    title: "Password Manager",
-    description: "A browser-based password manager that lets user securely save, mask, copy, and delete their login credentials—no backend required",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/datpham0412/password-manager",
-    icon: "KeyRound"
-  },
-  {
-    title: "Grocery Hub Management",
-    description: "A web-based system for supermarkets to manage user access, order processing, and sales reporting through an intuitive, responsive dashboard.",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/datpham0412/grocery-hub-management",
+    title: "Capstone Project",
+    description: "A complete e-commerce backend system that handles product management, user authentication, and order processing.",
+    tech: ["Java", "MySQL", "Spring Boot", "JPA", "REST APIs"],
+    github: "https://github.com/Akashmed/spring-api-starter",
     icon: "ShoppingCart"
   },
   {
-    title: "Way To World Cup",
-    description: "A turn-based board game where 2–4 players travel the world, buy cities, pay rent, and compete to be the last player with money remaining.",
-    tech: ["C#", "OOP", "MySQL", "SplashKit"],
-    github: "https://github.com/datpham0412/way-to-world-cup",
-    icon: "Dices"
+    title: "Authentication Service",
+    description: "Authentication application built using the Next.js, allow users to register/sign-in and manage their account",
+    tech: ["Next.js", "NextAuth", "Express.js", "JWT"],
+    github: "https://github.com/Akashmed/nextJS-auth",
+    icon: "Lock"
   },
   {
-    title: "Reddit Clone",
-    description: "A full-featured Reddit clone where users can sign up, create and browse subreddits, post and comment, and upvote or downvote content.",
-    tech: ["Next.js", "React", "Tailwind CSS", "Prisma"],
-    github: "https://github.com/datpham0412/reddit-clone",
-    icon: "Copy"
+    title: "Hotel Reservation & Management system",
+    description: "Terminal-based application that allows users to book and admins to manage reservations",
+    tech: ["C++", "Structured Programming"],
+    github: "https://github.com/Akashmed/Hotel-Reservation-And-Management",
+    icon: "Hotel"
+  },
+  {
+    title: "User Service",
+    description: "A object-oriented backend application for managing users and products",
+    tech: ["Java", "Spring Boot", "JPA", "MySQL"],
+    github: "https://github.com/Akashmed/User-Service-Registration",
+    icon: "Users"
+  },
+  {
+    title: "Age Calculator",
+    description: "A tool for calculating age based on the user's inputted birth date.",
+    tech: ["C", "Structured Programming"],
+    github: "https://github.com/Akashmed/Tools",
+    icon: "Calculator"
+  },
+  {
+    title: "HealthEase",
+    description: "A platform that offers health care at home, connecting patients with healthcare professionals for convenient and quality care.",
+    tech: ["React", "Vite", "Tailwind CSS", "React Router"],
+    github: "https://github.com/Akashmed/HealthEase-client",
+    icon: "Heart"
   }
 ] 

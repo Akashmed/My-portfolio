@@ -1,16 +1,16 @@
 export const SOCIAL_LINKS = {
-  github: "https://github.com/datpham0412",
-  linkedin: "https://www.linkedin.com/in/dat-pham-4b79b0219/",
-  email: "datpham0412.work@gmail.com",
+  github: "https://github.com/akashmed",
+  linkedin: "https://www.linkedin.com/in/akash-ahmed-dev",
+  email: "akashmed3@gmail.com",
 } as const
 
 export const PERSONAL_INFO = {
-  name: "Dat Pham",
-  title: "Software Engineer",
-  location: "Melbourne, Australia",
-  email: "datpham0412.work@gmail.com",
-  linkedin: "linkedin.com/in/dat-pham-4b79b0219",
-  github: "github.com/datpham0412",
+  name: "Akash Ahmed",
+  title: "Full-Stack Developer",
+  location: "Dhaka, Bangladesh",
+  email: "akashmed3@gmail.com",
+  linkedin: "linkedin.com/in/akash-ahmed-dev",
+  github: "github.com/akashmed",
 } as const
 
 export const QUICK_STATS = [

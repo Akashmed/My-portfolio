@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Github, ExternalLink, Cloud, Target, MessageCircle, Settings, Zap, ShoppingCart, Calculator, Lock, KeyRound, Dices, Copy } from "lucide-react"
+import { Github, ExternalLink, Cloud, Target, MessageCircle, Settings, Zap, ShoppingCart, Calculator, Lock, KeyRound, Dices, Copy, Hotel, Users, Heart } from "lucide-react"
 import Image from "next/image"
 import { projects } from "@/data/projects"
 import { smallProjects } from "@/data/smallProjects"
@@ -21,7 +21,10 @@ export default function ProjectsSection() {
       Lock,
       KeyRound,
       Dices,
-      Copy
+      Copy,
+      Hotel,
+      Users,
+      Heart
     }
     return icons[iconName] || Cloud
   }

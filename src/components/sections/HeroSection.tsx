@@ -40,9 +40,8 @@ export default function HeroSection() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              With 1+ years' professional experience, I see software as a bridge—turning complex needs into
-              <span className="font-medium text-foreground"> intuitive solutions</span> that people actually love to
-              use.
+              With 1+ years of development experience, I see software as a bridge—turning complex needs into
+              <span className="font-medium text-foreground"> intuitive solutions</span> that truely help people.
             </p>
 
             {/* Social Links */}

@@ -17,7 +17,7 @@ export default function EducationSection() {
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
               My academic journey and continuous learning path in computer
-              science and software engineering
+              science and engineering
             </p>
           </div>
 
@@ -37,40 +37,36 @@ export default function EducationSection() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
-                        Bachelor of Engineering (Honours) (Professional)
+                        Bachelor of Science (Honours)
                       </h3>
                       <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400 mb-1">
-                        Software Engineering
+                        Computer Science & Engineering
                       </h4>
                       <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">
-                        Swinburne University of Technology
+                        Northern University Bangladesh
                       </p>
                       <div className="flex flex-wrap gap-3 text-sm text-gray-500 dark:text-gray-400 mb-3">
                         <span className="flex items-center">
                           <Calendar className="mr-1 h-4 w-4" />
-                          2021 - 2025
+                          2023 - Present
                         </span>
                         <span className="flex items-center">
                           <MapPin className="mr-1 h-4 w-4" />
-                          Melbourne, Australia
+                          Dhaka, Bangladesh
                         </span>
                       </div>
                       <div className="flex gap-2">
                         <span className="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-semibold">
-                          GPA: 4.0/4.0
+                          CGPA: 3.98/4.0 (current)
                         </span>
                         <span className="px-3 py-1 bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-full text-sm font-semibold">
-                          Graduate 12/2025
+                          Graduate 12/2026
                         </span>
                       </div>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                    Focused on software development, embedded system
-                    engineering, data structures, and object-oriented
-                    programming. Currently working on capstone AI project
-                    involving membership inference attacks in vision large
-                    language models.
+                    Focused on modern computer science foundations including algorithms, data structures, object-oriented programming, software engineering, databases and system architecture. Developing real-world applications including an SOS emergency-response platform and a scalable inventory and supply-chain system.
                   </p>
                   <div className="mb-4">
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
@@ -78,16 +74,22 @@ export default function EducationSection() {
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
-                        Object Oriented Programming (C#)
+                        Object-Oriented Programming (Java & C++)
+                      </span>
+                      <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
+                        Compiler Design
                       </span>
                       <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
                         Data Structures & Algorithms (C++)
                       </span>
                       <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
-                        Software Deployment & Evolution
+                        Assembly Language Programming
                       </span>
                       <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
-                        Data Management (SQL)
+                        Software Engineering & System Design
+                      </span>
+                      <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
+                        Database Management (Oracle SQL)
                       </span>
                     </div>
                   </div>
@@ -99,16 +101,13 @@ export default function EducationSection() {
                       <li className="flex items-center text-sm text-gray-600 dark:text-gray-400">
                         <span className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full mr-2 flex-shrink-0"></span>
                         <span>
-                          Awarded Swinburne International Excellence
-                          Undergraduate Scholarship for outstanding academic
-                          performance
+                          Awarded for SOS emergency-response application in project showcase competition
                         </span>
                       </li>
                       <li className="flex items-center text-sm text-gray-600 dark:text-gray-400">
                         <span className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full mr-2 flex-shrink-0"></span>
                         <span>
-                          Currently developing AI capstone project on membership
-                          inference attacks
+                          Currently developing AI lectureIQ project to assist students with lecture materials
                         </span>
                       </li>
                     </ul>
@@ -132,27 +131,27 @@ export default function EducationSection() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
-                        High School for Gifted Students
+                        Higher Secondary Certificate (HSC)
                       </h3>
                       <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400 mb-1">
-                        Major: Chemistry
+                        Science Group
                       </h4>
                       <p className="text-gray-600 dark:text-gray-400 font-medium mb-2">
-                        Top 10 High School in Vietnam
+                        Shahid Syed Nazrul Islam College
                       </p>
                       <div className="flex flex-wrap gap-3 text-sm text-gray-500 dark:text-gray-400 mb-3">
                         <span className="flex items-center">
                           <Calendar className="mr-1 h-4 w-4" />
-                          2017 - 2020
+                          2019 - 2021
                         </span>
                         <span className="flex items-center">
                           <MapPin className="mr-1 h-4 w-4" />
-                          Hanoi, Vietnam
+                          Mymensingh, Bangladesh
                         </span>
                       </div>
                       <div className="flex gap-2">
                         <span className="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-semibold">
-                          GPA: 9.5/10
+                          GPA: 5.0/5.0
                         </span>
                         <span className="px-3 py-1 bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-full text-sm font-semibold">
                           Graduated
@@ -161,10 +160,7 @@ export default function EducationSection() {
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                    Attended Vietnam's most prestigious high school, renowned
-                    for academic excellence and competition achievements. Strong
-                    foundation in STEM subjects with leadership experience in
-                    programming club.
+                    Attended one of Mymensingh’s renowned colleges known for strong academic results and quality higher-secondary education. Built a solid foundation in mathematics, physics, and computer science—skills that later fueled my programming journey.
                   </p>
                   <div className="mb-4">
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
@@ -172,16 +168,16 @@ export default function EducationSection() {
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
-                        Computer Science
-                      </span>
-                      <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
-                        Advanced Mathematics
-                      </span>
-                      <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
                         Physics
                       </span>
                       <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
+                        Higher Mathematics
+                      </span>
+                      <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
                         Chemistry
+                      </span>
+                      <span className="px-3 py-1 rounded-full text-sm transition-all duration-300 cursor-pointer bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
+                        ICT (Information & Communication Technology)
                       </span>
                     </div>
                   </div>
@@ -193,22 +189,19 @@ export default function EducationSection() {
                       <li className="flex items-center text-sm text-gray-600 dark:text-gray-400">
                         <span className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full mr-2 flex-shrink-0"></span>
                         <span>
-                          Second prize in city-level chemistry competition for
-                          excellent students
+                          Achieved GPA 5.00
                         </span>
                       </li>
                       <li className="flex items-center text-sm text-gray-600 dark:text-gray-400">
                         <span className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full mr-2 flex-shrink-0"></span>
                         <span>
-                          Programming Club President - Led technical initiatives
-                          and mentored peers
+                          Strong academic performance in STEM subjects
                         </span>
                       </li>
                       <li className="flex items-center text-sm text-gray-600 dark:text-gray-400">
                         <span className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full mr-2 flex-shrink-0"></span>
                         <span>
-                          Graduated from Vietnam's top-ranked high school for
-                          gifted students
+                          Participated in programming and science-related activities during college
                         </span>
                       </li>
                     </ul>
