@@ -1,7 +1,29 @@
 {
-  "name": "my-portfolio",
-  "version": "0.1.0",
+  "name": "akash-ahmed-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "description": "Akash Ahmed's Full-Stack Developer Portfolio - Showcasing React, Next.js, Node.js, and .NET projects",
+  "author": {
+    "name": "Akash Ahmed",
+    "email": "akashmed3@gmail.com",
+    "url": "https://akashmed.vercel.app"
+  },
+  "keywords": [
+    "portfolio",
+    "akash ahmed",
+    "full-stack developer",
+    "react",
+    "nextjs",
+    "typescript",
+    "nodejs",
+    "dotnet",
+    "web developer"
+  ],
+  "homepage": "https://akashmed.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashmed/my-portfolio"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

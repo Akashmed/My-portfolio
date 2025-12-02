@@ -31,9 +31,9 @@ const NAV_LINKS = [
   { href: "#skills", label: "Skills", icon: Star },
   { href: "#goals", label: "Goals", icon: Target },
   { href: "#education", label: "Education", icon: GraduationCap },
-  { href: "#experience", label: "Experience", icon: BookOpen },
+  // { href: "#experience", label: "Experience", icon: BookOpen },
   { href: "#projects", label: "Projects", icon: Folder },
-  { href: "#testimonials", label: "Testimonials", icon: Quote },
+  // { href: "#testimonials", label: "Testimonials", icon: Quote },
   { href: "#leetcode", label: "LeetCode", icon: ListChecks },
   { href: "#contact", label: "Contact", icon: MessageCircle },
 ]

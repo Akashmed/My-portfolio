@@ -107,7 +107,7 @@ export default function EducationSection() {
                       <li className="flex items-center text-sm text-gray-600 dark:text-gray-400">
                         <span className="w-2 h-2 bg-gray-600 dark:bg-gray-400 rounded-full mr-2 flex-shrink-0"></span>
                         <span>
-                          Currently developing AI lectureIQ project to assist students with lecture materials
+                          Led a team to develop an Oracle-based system utilizing advanced PL/SQL.
                         </span>
                       </li>
                     </ul>

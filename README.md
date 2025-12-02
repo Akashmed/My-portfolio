@@ -1,4 +1,51 @@
-# Portfolio Component Structure
+# Akash Ahmed - Full-Stack Developer Portfolio 🚀
+
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19.0-61DAFB)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC)](https://tailwindcss.com/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://akashmed.vercel.app)
+
+> A modern, responsive, and SEO-optimized portfolio showcasing my journey as a Full-Stack Developer specializing in React, Next.js, Node.js, and .NET technologies.
+
+## 👨‍💻 About Me
+
+Hi! I'm **Akash Ahmed**, a passionate Full-Stack Developer and third-year Computer Science student from Dhaka, Bangladesh. With over 1 year of hands-on experience, I specialize in building scalable web applications, REST APIs, and modern user interfaces.
+
+🌐 **Live Site**: [akashmed.vercel.app](https://akashmed.vercel.app)  
+💼 **LinkedIn**: [linkedin.com/in/akash-ahmed-dev](https://www.linkedin.com/in/akash-ahmed-dev)  
+💻 **GitHub**: [github.com/akashmed](https://github.com/akashmed)  
+📧 **Email**: akashmed3@gmail.com
+
+## ✨ Features
+
+- ⚡ **Lightning Fast**: Built with Next.js 15 and optimized for performance
+- 🎨 **Modern UI/UX**: Clean, responsive design with Tailwind CSS
+- 🔍 **SEO Optimized**: Comprehensive SEO with structured data, sitemap, and meta tags
+- 📱 **Fully Responsive**: Perfect viewing experience across all devices
+- 🌙 **Dark Mode Support**: Seamless theme switching
+- 🎯 **Type-Safe**: Built entirely with TypeScript
+- ♿ **Accessible**: WCAG compliant with semantic HTML
+- 🚀 **PWA Ready**: Manifest and service worker support
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework**: Next.js 15.3.5 (App Router)
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS 4.0
+- **Components**: Radix UI
+- **Icons**: Lucide React
+- **TypeScript**: Type-safe development
+
+### Backend & Tools
+- **Languages**: TypeScript, JavaScript, C#, Python
+- **Backend**: Node.js, .NET, Express.js
+- **Databases**: PostgreSQL, MongoDB
+- **Cloud**: AWS, Azure, Vercel
+- **Version Control**: Git, GitHub
+
+## 📁 Portfolio Component Structure
 
 This portfolio has been refactored into a clean, modular structure for better maintainability and organization.
 

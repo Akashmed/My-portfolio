@@ -14,8 +14,7 @@ export default function LeetCodeSection() {
               LeetCode <span className="text-gray-600 dark:text-gray-400">Highlights</span>
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              I love tackling algorithmic challenges—here are a few LeetCode problems where my solutions received
-              community upvotes.
+              I love tackling algorithmic challenges—here are a few LeetCode problems that I've solved using different techniques and algorithms.
             </p>
           </div>
 
@@ -45,7 +44,7 @@ export default function LeetCodeSection() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center text-yellow-600 dark:text-yellow-400">
                     <span className="mr-1">🏆</span>
-                    <span className="text-sm font-semibold">{item.upvotes} upvotes</span>
+                    <span className="text-sm font-semibold">Time Complexity: {item.timeComplexity}</span>
                   </div>
                   <Code className="h-5 w-5 text-gray-400" />
                 </div>
@@ -56,7 +55,7 @@ export default function LeetCodeSection() {
           {/* Link to Profile */}
           <div className="text-center mt-12">
             <Link
-              href="https://leetcode.com/datpham0412"
+              href="https://leetcode.com/u/Akashmed"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"

@@ -1,5 +1,6 @@
 "use client"
 
+import { Metadata } from "next"
 import Navigation from "@/components/layout/Navigation"
 import HeroSection from "@/components/sections/HeroSection"
 import AboutSection from "@/components/sections/AboutSection"
@@ -15,19 +16,19 @@ import LeetCodeSection from "@/components/sections/LeetCodeSection"
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background">
       <Navigation />
       <HeroSection />
       <AboutSection />
       <SkillsSection />
       <GoalsSection />
       <EducationSection />
-      <ExperienceSection />
+      {/* <ExperienceSection /> */}
       <ProjectsSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <LeetCodeSection />
       <ContactSection />
       <Footer />
-    </div>
+    </main>
   )
 }
