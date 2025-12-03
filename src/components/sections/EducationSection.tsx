@@ -25,7 +25,7 @@ export default function EducationSection() {
             {/* University Education */}
             <div className="group h-full">
               <a
-                href="https://www.swinburne.edu.au/course/undergraduate/bachelor-of-engineering-honours-professional/software/"
+                href="https://www.linkedin.com/school/northernuniversitybd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block h-full"
@@ -119,7 +119,7 @@ export default function EducationSection() {
             {/* High School Education */}
             <div className="group h-full">
               <a
-                href="https://www.linkedin.com/school/hsgs-hus/about/"
+                href="https://ssnic.edu.bd/ssnicweb"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block h-full"
