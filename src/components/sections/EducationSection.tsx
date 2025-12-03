@@ -56,10 +56,10 @@ export default function EducationSection() {
                         </span>
                       </div>
                       <div className="flex gap-2">
-                        <span className="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-semibold">
+                        <span className="px-3 py-1 text-center bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-semibold">
                           CGPA: 3.98/4.0 (current)
                         </span>
-                        <span className="px-3 py-1 bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-full text-sm font-semibold">
+                        <span className="px-3 py-1 text-center bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-full text-sm font-semibold">
                           Graduate 12/2026
                         </span>
                       </div>

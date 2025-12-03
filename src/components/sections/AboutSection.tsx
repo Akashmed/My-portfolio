@@ -13,6 +13,9 @@ import {
   Download,
   BookOpen,
   Heart,
+  Database,
+  Server,
+  GitBranch,
 } from "lucide-react"
 import Link from "next/link"
 import { SOCIAL_LINKS, PERSONAL_INFO } from "@/data/constants"
@@ -36,11 +39,51 @@ export default function AboutSection() {
 
           <div className="flex flex-col lg:flex-row gap-12">
             {/* Profile Image */}
-            <div className="lg:w-1/3 flex justify-center lg:justify-start">
-              <Avatar className="w-80 h-80 shadow-xl hover:rotate-3 transition-transform duration-300">
-                <AvatarImage src="/avatar.jpg" alt={PERSONAL_INFO.name} className="object-cover" />
-                <AvatarFallback className="text-6xl font-bold bg-gray-200 text-gray-900">DP</AvatarFallback>
-              </Avatar>
+            <div className="lg:w-1/3 relative flex justify-center lg:justify-start">
+              <div className="relative z-10" onContextMenu={(e) => e.preventDefault()}>
+                <Avatar className="w-80 h-80 lg:w-96 lg:h-96 shadow-2xl border-8 border-background hover:shadow-3xl hover:-translate-y-2 transition-all duration-300 select-none">
+                  <AvatarImage
+                    src="/avatar.jpg"
+                    alt={PERSONAL_INFO.name}
+                    className="object-cover pointer-events-none select-none"
+                    draggable="false"
+                  />
+                  <AvatarFallback className="text-6xl font-bold bg-muted text-foreground">DP</AvatarFallback>
+                </Avatar>
+              </div>
+
+              {/* Floating Tech Icons */}
+              <div
+                className="absolute -top-8 md:hidden left-20 w-16 h-16 bg-background rounded-full shadow-lg border border-border flex items-center justify-center hover:scale-110 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-bounce cursor-pointer"
+                style={{ animationDelay: "0s", animationDuration: "3s" }}
+              >
+                <Globe className="h-6 w-6 text-foreground" />
+              </div>
+              <div
+                className="absolute top-0 right-0 md:hidden w-16 h-16 bg-background rounded-full shadow-lg border border-border flex items-center justify-center hover:scale-110 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-bounce cursor-pointer"
+                style={{ animationDelay: "0.5s", animationDuration: "3s" }}
+              >
+                <Code className="h-6 w-6 text-foreground" />
+              </div>
+              <div
+                className="absolute -bottom-8 md:hidden left-10 w-16 h-16 bg-background rounded-full shadow-lg border border-border flex items-center justify-center hover:scale-110 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-bounce cursor-pointer"
+                style={{ animationDelay: "1s", animationDuration: "3s" }}
+              >
+                <Database className="h-6 w-6 text-foreground" />
+              </div>
+              <div
+                className="absolute bottom-0 md:hidden right-4 w-16 h-16 bg-background rounded-full shadow-lg border border-border flex items-center justify-center hover:scale-110 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-bounce cursor-pointer"
+                style={{ animationDelay: "1.5s", animationDuration: "3s" }}
+              >
+                <Server className="h-6 w-6 text-foreground" />
+              </div>
+              <div
+                className="absolute top-8 md:hidden left-0 w-16 h-16 bg-background rounded-full shadow-lg border border-border flex items-center justify-center hover:scale-110 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-bounce cursor-pointer"
+                style={{ animationDelay: "2s", animationDuration: "3s" }}
+              >
+                <GitBranch className="h-6 w-6 text-foreground" />
+              </div>
+
             </div>
 
             {/* Content Grid */}

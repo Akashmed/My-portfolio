@@ -27,7 +27,7 @@ const iconMap = {
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full flex justify-center min-h-screen py-12">
+    <section className="relative w-full flex justify-center min-h-screen py-4">
       <div className="container mx-auto px-4 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-12">
           {/* Content */}
@@ -118,10 +118,15 @@ export default function HeroSection() {
           </div>
 
           {/* Avatar with Floating Tech Icons */}
-          <div className="relative flex justify-center items-center">
-            <div className="relative z-10">
-              <Avatar className="w-80 h-80 lg:w-96 lg:h-96 shadow-2xl border-8 border-background hover:shadow-3xl hover:-translate-y-2 transition-all duration-300">
-                <AvatarImage src="/avatar.jpg" alt={PERSONAL_INFO.name} className="object-cover" />
+          <div className="relative justify-center items-center hidden lg:flex">
+            <div className="relative z-10" onContextMenu={(e) => e.preventDefault()}>
+              <Avatar className="w-80 h-80 lg:w-96 lg:h-96 shadow-2xl border-8 border-background hover:shadow-3xl hover:-translate-y-2 transition-all duration-300 select-none">
+                <AvatarImage 
+                  src="/avatar.jpg" 
+                  alt={PERSONAL_INFO.name} 
+                  className="object-cover pointer-events-none select-none"
+                  draggable="false"
+                />
                 <AvatarFallback className="text-6xl font-bold bg-muted text-foreground">DP</AvatarFallback>
               </Avatar>
             </div>
