@@ -41,7 +41,7 @@ export default function AboutSection() {
             {/* Profile Image */}
             <div className="lg:w-1/3 relative flex justify-center lg:justify-start">
               <div className="relative z-10" onContextMenu={(e) => e.preventDefault()}>
-                <Avatar className="w-80 h-80 lg:w-96 lg:h-96 shadow-2xl border-8 border-background hover:shadow-3xl hover:-translate-y-2 transition-all duration-300 select-none">
+                <Avatar className="w-80 h-80 lg:w-96 lg:h-96 shadow-2xl border-8 border-background hover:shadow-3xl hover:rotate-3 transition-transform duration-300 select-none">
                   <AvatarImage
                     src="/avatar.jpg"
                     alt={PERSONAL_INFO.name}

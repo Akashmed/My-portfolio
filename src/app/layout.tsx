@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     canonical: "https://akashmed.vercel.app",
   },
   verification: {
-    google: "google-site-verification=FdWq01C-7Q63Mb7TNxVSSIXqDexc6PRGhwEpMG1mp84", // Add your Google Search Console verification code
+    google: "fwcThI6eh5n23ugjwPl77AF9TZK-s2zAK9Oq0njybMA",
   },
 };
 
