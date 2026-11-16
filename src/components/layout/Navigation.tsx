@@ -100,7 +100,7 @@ export default function Navigation() {
           </nav>
           {/* Resume Button (always visible on desktop) */}
           <Button variant="outline" size="sm" className="ml-4 bg-transparent hidden md:flex" asChild>
-            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="#" target="_blank" rel="noopener noreferrer">
             <Download className="mr-2 h-4 w-4" />
             Resume
             </Link>

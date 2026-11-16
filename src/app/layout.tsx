@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { ReactLenis } from "lenis/react";
 import "./globals.css";
+import "lenis/dist/lenis.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -129,7 +131,7 @@ export default function RootLayout({
   }
 
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en">
       <head>
         <script
           type="application/ld+json"
@@ -139,6 +141,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ReactLenis
+          root
+          options={{
+            anchors: true,
+            lerp: 0.1,
+            respectReducedMotion: true,
+            smoothWheel: true,
+          }}
+        />
         {children}
       </body>
     </html>
